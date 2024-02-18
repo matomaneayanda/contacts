@@ -1,3 +1,7 @@
+create database if not exists contacts;
+
+use contacts;
+
 create table contacts (
 Name varchar(100),
 Last_Name varchar(100),
